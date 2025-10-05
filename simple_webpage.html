@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- <link rel="stylesheet" href="simple_website.css"> -->
+ <style>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+    padding: 10px;
+    background-color: #137aba;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.product {
+    margin: 5% 5% 5% 5%;
+    border: solid blue 1px;
+    padding: 10px;
+}
+
+.product image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px 10px;
+}
+
+.product h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    
+}
+
+.product p {
+    font-size: 1em;
+    color: #333;
+}
+
+.product button {
+    background-color: #4caf50;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}</style>
+
+</head>
+<body>
+    <div class="website">
+    <div class="header">
+        <h2>My Website</h2>
+    </div>
+
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+
+    <div class="products">
+        <div class="product">
+            <image src="./image1.jpg"></image>
+            <h3>Phone</h3>
+            <p>Price $199</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="product">
+            <image src="./image2.jpg"></image>
+            <h3>Laptop</h3>
+            <p>Price $299</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="product">
+            <image src="./image3.jpg"></image>
+            <h3>Earbuds</h3>
+            <p>Price $99</p>
+            <button>Add to cart</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
